@@ -1,0 +1,233 @@
+
+
+.container {
+  width: 1170px;
+  margin: 100px auto;
+}
+/* 4 Ảnh bé */
+.small-img-group {
+  display: flex;
+  gap: 10px;
+  padding-left: 5px;
+}
+
+.small-img-col {
+  border: 1px solid rgba(159, 155, 155, 0.532);
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.small-img-col:hover {
+  cursor: pointer;
+  scale: 1.1;
+  box-shadow: 0 0 15px rgba(137, 135, 135, 0.229);
+}
+/* Ảnh to */
+.big-img {
+  padding: 5px;
+
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(159, 155, 155, 0.532);
+}
+/* Chia cột section row */
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+  justify-items: center;
+}
+/* Cột thông tin của section row */
+.col-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.col-info h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.col-info h3 {
+  font-size: 26px;
+}
+
+.button,
+.input {
+  min-width: 10%;
+}
+.select {
+  max-width: 28%;
+  display: block;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+/* Dòng số lượng mua và nút add to card */
+.amount_buy {
+  display: flex;
+}
+
+/* Tag nhập số lượng */
+.input {
+  width: 50px;
+  height: 42px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.select option:first-child {
+  text-align: center;
+}
+
+/* Nút bấm trong class amount_buy */
+.amount_buy .button {
+  border: none;
+  padding: 0px 24px;
+  background-color: rgba(255, 0, 0, 0.985);
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 0, 0, 0.985);
+}
+
+.amount_buy button:hover {
+  background-color: #fff;
+  color: rgba(255, 0, 0, 0.985);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+li {
+  font-size: 16px;
+}
+
+/* Thông tin kỹ thuật máy */
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product-details h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+}
+
+/* Tính năng nổi bật */
+.product-advanced ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 16px;
+}
+
+.product-tech ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/*related product*/
+.related-product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+  justify-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+/* Section(ben duoi) thứ 2 related-product */
+.related-product h3 {
+  margin: 30px 0;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: rgb(255, 68, 68);
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  letter-spacing: 1.3px;
+}
+
+/* 4 thẻ div con sản phẩm */
+.box-product {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-items: center;
+  column-gap: 30px;
+}
+.box-product div:first-child {
+  padding: 6px;
+}
+/* 1 cái card sản phẩm */
+.box-card {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(150, 147, 147, 0.247);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 0 10px rgba(130, 128, 128, 0.134);
+  border-radius: 10px;
+  background-color: #fff;
+}
+.box-card:hover {
+  scale: 1.05;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.box-card p {
+  font-size: 20px;
+  margin-top: 5px;
+  line-height: 1.3;
+}
+.box-card p:last-child {
+  font-size: 18px;
+}
+svg {
+  width: 24px;
+  height: 24px;
+}
+.star {
+  stroke: rgba(220, 220, 21, 0.788);
+  fill: yellow;
+}
+.box-card button {
+  border-radius: 20px;
+  margin: 5px 5px;
+}
+.box-card .button {
+  border: none;
+  padding: 10px 24px;
+  background-color: rgba(255, 0, 0, 0.985);
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 0, 0, 0.985);
+  font-size: 16px;
+}
+.box-card button:hover {
+  background-color: #fff;
+  color: rgba(255, 0, 0, 0.985);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box-card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 11px 20px;
+  border-radius: 20px;
+  color: rgba(255, 0, 0, 0.985);
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 0, 0, 0.985);
+}
+.box-card a:link:hover {
+  background-color: rgba(255, 0, 0, 0.985);
+  color: #fff;
+  transition: 0.4s;
+}

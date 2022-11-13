@@ -1,0 +1,190 @@
+
+/*************HOME*************/
+
+#home{
+    margin-top: 90px;
+    width: 100%;
+    height: 644px;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url(./src/asset/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home .main{
+    color: aliceblue;
+    text-align: center;
+}
+
+#home h1{
+    font-size: 60px;
+}
+
+#home h2{
+    font-size: 40px;
+}
+
+#home a{
+    display: inline-block;
+    background-color: black;
+    width: 250px;
+    height: 53px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    line-height: 53px;
+    font-size: 20px;
+}
+
+#home a:hover {
+    background-color: red;
+}
+
+/*********************slidebar*******************/
+#contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    margin: 50px;
+}
+
+#contact a{
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+#contact a:hover{
+    color: red;
+}
+
+
+/*********************content*******************/
+/*uu dai thanh toan*/
+#content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .offer{
+    margin-bottom: 60px;
+}
+
+#content .offer .slideshow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .offer .slideshow img{
+    width:267px;
+    height: 100px;
+}
+
+#content .offer h3{
+    color: aliceblue;
+    background-color: black;
+    width: 250px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+#content .offer:hover h3{
+    background-color: red;
+}
+
+/*chuyen trang thuong hieu*/
+#content .brand{
+    margin-bottom: 60px;
+}
+
+#content .brand h3{
+    color: aliceblue;
+    background-color: black;
+    width: 350px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+#content .brand:hover h3{
+    background-color: red;
+}
+
+#content .brand .slideshow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .brand .slideshow img{
+    width:267px;
+    height: 100px;
+}
+
+/*tin cong nghe*/
+#content .news{
+    margin-bottom: 60px;
+}
+
+#content .news h3{
+    color: aliceblue;
+    background-color: black;
+    width: 210px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+#content .news:hover h3{
+    background-color: red;
+}
+
+#content .news .slideshow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .news .box{
+    width: 280px;
+    height: 412px;
+    border: 1px solid ;
+}
+
+#content .news img{
+    width: 100%;
+    height: 207px;
+}
+
+#content .news .text{
+    margin: 10px auto;
+    width: 238px;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#content .news .text p:last-child{
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#content .news a{
+    display: inline-block;
+    color: aliceblue;
+    background-color: black;
+    text-decoration: none;
+    width: 127px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+#content .news a:hover{
+    background-color: red;
+}
